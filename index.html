@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="box" id="box">
+            <form action="">
+                <label for="">Add a Task:</label>
+                <br>
+                <textarea class="content" maxlength="20"></textarea>
+                <input type="submit" id="btnAdd" value="Add to List">
+                <input type="submit" id="reset" value="Reset">
+            </form>
+
+            <div id="list" style="margin-top: 20px;">
+                <h2 style="margin-bottom: 20px; font-weight: 100;">To Do:</h2>
+                <div class="tasks"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
